@@ -1,0 +1,29 @@
+@font-face {
+	font-family: "Hobbiton";
+	src: url("HobbitonBrushhandhobbitonBrush-WygA.ttf");
+	}
+
+html {
+	background-color: #e3d0b6;
+}
+
+body{
+	text-align: center;
+	font-size: 50px;
+}
+
+input[type="button"] {
+	background-color: #7c7265;
+	border: 2px solid #141414;
+	border-radius: .4em;
+	
+	font-size: 40px;
+	font-family: 'Hobbiton', cursive;
+	color: #141414;
+}
+
+div#name {
+	font-family: 'Hobbiton', cursive;
+	color: #d63209;
+	margin: 5%;
+}
