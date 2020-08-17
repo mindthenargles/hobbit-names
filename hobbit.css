@@ -16,7 +16,6 @@ input[type="button"] {
 	background-color: #7c7265;
 	border: 2px solid #141414;
 	border-radius: .4em;
-	
 	font-size: 40px;
 	font-family: 'Hobbiton', cursive;
 	color: #141414;
@@ -24,6 +23,10 @@ input[type="button"] {
 
 div#name {
 	font-family: 'Hobbiton', cursive;
-	color: #d63209;
+	color: #141414;
 	margin: 5%;
 }
+ div#name::first-letter {
+	font-size: 60px;
+	color: #d63209;
+ }
